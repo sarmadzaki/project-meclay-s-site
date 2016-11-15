@@ -1,0 +1,91 @@
+body #map-container
+{
+  /* move to #map-container in case of another styles on page
+	font: normal 13px Arial, Helvetica, sans-serif; */
+	color: #2c2c2c;
+}
+
+#map-container h1
+{
+	font: normal 22px Geneva, Arial, Helvetica, sans-serif;
+}
+
+#page-header
+{
+	float: left;
+	margin-left: 20px;
+	width: 600px;
+}
+
+#distances
+{
+	float: left;
+	width: 500px;
+	min-height: 600px;
+	background: #ccc;
+	
+}
+#map-container
+{
+	clear: left;
+	float: left;
+	font: normal 13px Arial, Helvetica, sans-serif;  
+	height: 530px;
+	width: 860px;
+}
+#loc-list
+{
+	display: inline;
+	float: left; 
+	width: 250px;
+	height: 500px;
+	overflow: auto;
+}
+#loc-list ol
+{
+	display: block;
+	clear: left;
+	float: left;
+}
+#loc-list li
+{
+	padding: 10px;	
+	cursor: pointer;
+}
+#loc-list .odd
+{
+	background: #eee;	
+}
+#loc-list .loc-name
+{
+	color: #ad2118;
+	font-weight: bold;
+}
+#search-form
+{
+	clear: left;
+	float: left;
+	height: 60px;
+	padding-top: 30px;
+}
+#form-input
+{
+	float: left;	
+}
+#form-input label
+{
+	font-weight: bold;
+}
+#submit-btn
+{
+	float: left;
+	cursor: pointer;
+	margin-left: 10px;
+}
+#map
+{
+	display: inline;
+	float: left; 
+	width: 600px; 
+	height: 500px; 
+}

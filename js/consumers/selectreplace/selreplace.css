@@ -1,0 +1,95 @@
+.selreplace_scroll {
+	display: block;
+	width: 15px;
+}
+
+.selreplace_scrollinner {
+	background-color: #eaeaea;
+	width: 10px;
+	background: url(selectsprite.png) -700px 0 repeat-y; 
+	display: block;
+	height: 10px;
+	overflow: hidden;
+	border-radius: 11px;
+	-webkit-border-radius: 11px; 
+	-moz-border-radius:11px; 	
+	border: 1px solid #CECECE;
+}
+
+.selreplace_scrollhandle {
+	cursor: move;
+	height: 26px;
+	width: 10px;
+	display: block;
+	background: url(selectsprite.png) -1508px 0 repeat-y; 
+}
+
+.selreplace_scrollbuttonup,.selreplace_scrollbuttondown {
+	display: block;
+	width: 26px;
+	height: 26px;
+}
+
+.selreplace_scrollbuttondown {
+	/*background: url(selectsprite.png) -780px 0 repeat-y; */
+}
+
+.selreplace_scrollbuttonup {
+	/*background: url(selectsprite.png) -740px 0 repeat-y; */
+}
+
+.selreplace_select {
+	display: block; overflow: hidden;
+	background: url(selectsprite.png) -820px 0 repeat-y;
+	font: 12px/26px Arial;
+	text-align:left;
+	cursor: pointer;
+	color: #555;
+	height: 26px !important;
+}
+
+.selreplace_selectbutton {
+	background: url(selectsprite.png) -780px 0 repeat-y; 
+	display: block; width: 26px; height: 26px; position: absolute; right:0px; top:0px;
+}
+
+.selreplace_optionsel {
+    background-color: #FFFFFF;
+    color: #61AEE1;
+    display: block;
+    padding: 5px;
+    width: 400px;
+}	
+
+.selreplace_optionimg{
+	float: left; padding-right: 5px;
+}
+
+.selreplace_option {
+    background: #F5F5F5;
+    display: block;
+    font: 13px Arial;
+    padding: 5px;
+    width: 550px;
+	vertical-align: middle;
+}
+.selreplace_option:hover{
+	background: #fff;
+	color: #61aee1;
+}
+
+.selreplace_selectinner{
+	padding-left: 10px;
+}
+
+.selreplace_selectbox {
+	background: #FFF url(selectsprite.png) -200px 0 repeat-y;z-index: 10;
+	overflow: hidden; 
+	width: 402px;
+	text-align: left;
+	border: 1px solid #CCC;
+	font: 12px Arial;
+	cursor: pointer;
+	width: 245px;
+	color: #555;
+}	
