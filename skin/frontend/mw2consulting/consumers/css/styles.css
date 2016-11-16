@@ -415,15 +415,15 @@ input[type="search"] {
  * Base Styles
  * ============================================ */
 @-ms-viewport {
-  width: device-width;
+  min-width: 770px;
 }
 
 @-o-viewport {
-  width: device-width;
+  min-width: 770px;
 }
 
 @viewport {
-  width: device-width;
+  min-width: 770px;
 }
 
 a, button {
